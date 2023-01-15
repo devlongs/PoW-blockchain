@@ -1,0 +1,40 @@
+=============== Jan 13, 2023 (GMT) ===============
+17:08:39.152638 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:08:39.159784 db@open opening
+17:08:39.162456 version@stat F·[] S·0B[] Sc·[]
+17:08:39.164835 db@janitor F·2 G·0
+17:08:39.164888 db@open done T·5.069361ms
+=============== Jan 15, 2023 (GMT) ===============
+09:28:17.029784 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:28:17.032069 version@stat F·[] S·0B[] Sc·[]
+09:28:17.032155 db@open opening
+09:28:17.032273 journal@recovery F·1
+09:28:17.035531 journal@recovery recovering @1
+09:28:17.178513 memdb@flush created L0@2 N·30192 S·2MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+09:28:17.181542 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+09:28:17.192227 db@janitor F·3 G·0
+09:28:17.192300 db@open done T·160.119831ms
+09:44:28.247857 db@close closing
+09:44:28.247976 db@close done T·114.667µs
+=============== Jan 15, 2023 (GMT) ===============
+09:45:11.518163 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:45:11.518454 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+09:45:11.518496 db@open opening
+09:45:11.518595 journal@recovery F·1
+09:45:11.521571 journal@recovery recovering @3
+09:45:11.526170 memdb@flush created L0@5 N·8 S·780B "Sna..tor,v30199":"unc..own,v30195"
+09:45:11.528647 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+09:45:11.538513 db@janitor F·4 G·0
+09:45:11.538580 db@open done T·20.061721ms
+=============== Jan 15, 2023 (GMT) ===============
+10:08:16.983425 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:08:16.983729 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+10:08:16.983775 db@open opening
+10:08:16.983900 journal@recovery F·1
+10:08:16.986703 journal@recovery recovering @6
+10:08:16.995277 memdb@flush created L0@8 N·6 S·695B "eth..ˏ\xa3,v30203":"unc..own,v30204"
+10:08:16.998109 version@stat F·[3] S·2MiB[2MiB] Sc·[0.75]
+10:08:17.008823 db@janitor F·5 G·0
+10:08:17.008883 db@open done T·25.080041ms
+10:26:03.412154 db@close closing
+10:26:03.412575 db@close done T·418.61µs
